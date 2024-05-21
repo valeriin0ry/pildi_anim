@@ -53,7 +53,7 @@ while running:
             score += 10
             hit_sound.play()
         if red_car_rect.colliderect(yel_car_rects[i]):
-            print("game over!")
+            print("game over")
             running = False 
     screen.blit(background, (0, 0))
     screen.blit(red_car, red_car_rect.topleft)
