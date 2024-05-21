@@ -51,7 +51,7 @@ while running:
             car[0] = random.randint(0, screen_width - yel_car.get_width())
             yel_car_rects[i].topleft = (car[0], car[1])
             score += 10
-            hit_sound.play()
+            #hit_sound.play()
         if red_car_rect.colliderect(yel_car_rects[i]):
             print("game over")
             running = False 
